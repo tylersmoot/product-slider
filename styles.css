@@ -1,6 +1,7 @@
 body {
     background: lightgray;
 }
+
 .main-container {
     display: flex;
     justify-content: center;
@@ -27,7 +28,7 @@ img{
     align-items: center;
     background: white;
     width: 30%;
-    height: 60%;
+   
     opacity: 0.8;
     border: 2px solid lightgray;
     border-radius: 15px;
@@ -35,14 +36,15 @@ img{
    
 }
 
-
 .title {
     color: royalblue;
     padding-top: 20px;
 }
+
 .description {
     width: 80%;
     text-align: center;
+    overflow: hidden;
 }
 
 .products {
@@ -67,8 +69,6 @@ img{
     background: royalblue;
     color: white;
 }
-
-
 
 
 .btnContainer {

@@ -39,7 +39,6 @@ const products = [
 
 
 
-
 const img = document.getElementById("productImg");
 const title = document.querySelector(".title");
 const description = document.querySelector(".description");
@@ -59,6 +58,7 @@ window.addEventListener("DOMContentLoaded", function () {
     title.textContent = item.title;
     description.textContent = item.description;
     currentItem = 1;
+
 });
 
 
@@ -66,30 +66,27 @@ window.addEventListener("DOMContentLoaded", function () {
 
 nextBtn.addEventListener("click", function () {
 
-
      let x = products[currentItem++];
-
-   console.log(x);
+     console.log(x);
 
      const item = x;
        img.src = item.img;
          title.textContent = item.title;
            description.textContent = item.description;
     
-})
+});
 
 
 
 
 previousBtn.addEventListener("click", function () {
   
-  let x = products[--currentItem];
+    let x = products[--currentItem];
+    console.log(x);
 
-  console.log(x);
-
-      const item = x;
-         img.src = item.img;
-           title.textContent = item.title;
-             description.textContent = item.description;
+    const item = x;
+      img.src = item.img;
+        title.textContent = item.title;
+          description.textContent = item.description;
          
-})
+});
