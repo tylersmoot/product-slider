@@ -1,0 +1,77 @@
+body {
+    background: lightgray;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underline {
+    border: 2px solid royalblue;
+    width: 60px;
+    
+}
+
+img{
+   width: 50%;
+   border-radius: 80px;
+   margin-top: 50px;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 30%;
+    height: 60%;
+    opacity: 0.8;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+  
+   
+}
+
+
+.title {
+    color: royalblue;
+    padding-top: 20px;
+}
+.description {
+    width: 80%;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.next, .previous {
+    font-size: 3rem;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.previous:hover {
+    cursor: pointer;
+    background: royalblue;
+    color: white;
+}
+
+.next:hover {
+    cursor: pointer;
+    background: royalblue;
+    color: white;
+}
+
+
+
+
+.btnContainer {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
